@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+			PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+			"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.demo.dao.StudentDao">
+
+	<resultMap type="mybatis.demo.entity.Student" id="studentMap">
+		<id property="uid" column="uid" jdbcType="VARCHAR" />
+		<result property="name" column="name" jdbcType="VARCHAR" />
+		<result property="nation" column="nation" jdbcType="VARCHAR" />
+		<result property="sex" column="sex" jdbcType="VARCHAR" />
+		<result property="age" column="age" jdbcType="INTEGER" />
+		<result property="school" column="school" jdbcType="VARCHAR" />
+		<result property="major" column="major" jdbcType="VARCHAR" />
+		<result property="detail" column="detail" jdbcType="VARCHAR" />
+		<result property="isPoor" column="isPoor" jdbcType="TINYINT" />
+		<result property="tel" column="tel" jdbcType="VARCHAR" />
+		<result property="parentTel" column="parentTel"
+			jdbcType="VARCHAR" />
+		<result property="photo" column="photo" jdbcType="VARCHAR" />
+		<result property="cv" column="cv" jdbcType="VARCHAR" />
+	</resultMap>
+	<select id="getAllStudent"
+		resultType="mybatis.demo.entity.Student">
+		select * from students order by uid
+	</select>
+	<select id="getStudentByPage"
+		resultType="mybatis.demo.entity.Student">
+		select * from students 
+		<if test="search != ''">
+		where uid like '%${search}%' 
+		or name like '%${search}%'
+		or school like '%${search}%'
+		or major like '%${search}%'
+		or detail like '%${search}%'
+		or nation like '%${search}%' 
+		or age like '%${search}%'
+		</if>
+			order by 
+           	<if test="sort == 'age'" >
+                age
+         	</if>
+         	<if test="sort == 'uid'" >
+                uid
+         	</if>
+		 limit
+		${(pageNum-1)*10},${pageNum*10}
+	</select>
+	<select id="getStudentById"
+		resultType="mybatis.demo.entity.Student">
+		select * from students where uid=#{uid}
+	</select>
+	<delete id="deleteStudent"
+		parameterType="mybatis.demo.entity.Student">
+		DELETE FROM students WHERE uid = #{uid}
+	</delete>
+	<delete id="deleteAllStudents" parameterType="mybatis.demo.entity.Student">
+		DELETE FROM students WHERE uid in
+		<foreach item="uids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{uids}
+		</foreach>
+	</delete>
+	<insert id="addStudent" useGeneratedKeys="true" parameterType="mybatis.demo.entity.Student">
+		insert into students(uid,name,nation,sex,age,school,major,detail,isPoor,tel,parentTel,photo,cv) 
+		values(#{uid},#{name},#{nation},#{sex},#{age},#{school},#{major},#{detail},#{isPoor},#{tel},#{parentTel},#{photo},cv)
+	</insert>
+	<update id="editStudent" parameterType="mybatis.demo.entity.Student">  
+        update students  
+            set name=#{name},
+            nation=#{nation},
+            sex=#{sex},
+            age=#{age},
+            school=#{school},
+            major=#{major},
+            detail=#{detail},
+            isPoor=#{isPoor},
+            tel=#{tel},
+            parentTel=#{parentTel} 
+         where uid = #{uid};     
+	</update>
+	<update id="updatePhoto" parameterType="mybatis.demo.entity.Student">  
+        update students set photo=#{photo} where uid = #{uid};     
+	</update>
+	<update id="updateCV" parameterType="mybatis.demo.entity.Student">  
+        update students set cv=#{cv} where uid = #{uid};     
+	</update>
+	<update id="deleteCv" parameterType="mybatis.demo.entity.Student">  
+        update students set cv=null where uid = #{uid};     
+	</update>
+</mapper>

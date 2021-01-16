@@ -1,0 +1,115 @@
+2019-11-18 18:05:34.931 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getPage
+2019-11-18 18:05:34.931 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:05:34.931 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:05:34.932 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getPage
+2019-11-18 18:05:34.933 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 参数 : []
+2019-11-18 18:05:34.935 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudents
+2019-11-18 18:05:34.936 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:05:34.937 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:05:34.937 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentByPage
+2019-11-18 18:05:34.937 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 参数 : [1, uid, ]
+2019-11-18 18:05:56.000 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:05:56.000 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:05:56.000 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:05:56.000 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:05:56.000 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070826]
+2019-11-18 18:10:49.843 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:10:49.843 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:10:49.843 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:10:49.845 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:10:49.845 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:12:13.784 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/test/getStudentById
+2019-11-18 18:12:13.785 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:12:13.785 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:12:13.785 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:12:13.785 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:12:29.316 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/test/getStudentById
+2019-11-18 18:12:29.316 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:12:29.316 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:12:29.316 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:12:29.316 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:12:40.106 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/test/editStudent
+2019-11-18 18:12:40.106 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:12:40.106 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : POST
+2019-11-18 18:12:40.106 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.editStudent
+2019-11-18 18:12:40.107 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 参数 : [Student [uid=11602070823, name=李四, nation=汉, sex=男, age=2000, school=计算机科学与工程学院, major=软件工程, detail=目前从彩排来看，有三组领队，每组三人，均由陆军执旗；服装为绿蓝白三种颜色；同时有男兵和女兵。10年前，三军仪仗队是执八一军旗出场，其他的徒步方队领队是2人。但2019年国庆大阅兵从彩排现场的视频看，是由三组士兵执三面旗，分别是党旗、国旗、军旗。, isPoor=false, tel=13302583691, parentTel=13323456789]]
+2019-11-18 18:12:40.161 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getPage
+2019-11-18 18:12:40.161 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:12:40.161 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:12:40.161 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getPage
+2019-11-18 18:12:40.161 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 参数 : []
+2019-11-18 18:12:40.163 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudents
+2019-11-18 18:12:40.163 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:12:40.163 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:12:40.163 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentByPage
+2019-11-18 18:12:40.163 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 参数 : [1, uid, ]
+2019-11-18 18:13:29.986 [http-nio-8080-exec-8] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/test/getStudentById
+2019-11-18 18:13:29.986 [http-nio-8080-exec-8] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:13:29.986 [http-nio-8080-exec-8] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:13:29.986 [http-nio-8080-exec-8] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:13:29.986 [http-nio-8080-exec-8] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:13:46.015 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/file/uid
+2019-11-18 18:13:46.015 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:13:46.015 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:13:46.016 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.deleteStudent
+2019-11-18 18:13:46.016 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:13:46.068 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/file/upload
+2019-11-18 18:13:46.068 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:13:46.068 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : POST
+2019-11-18 18:13:46.068 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.upload
+2019-11-18 18:13:46.069 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 参数 : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@95af148, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@95af148]
+2019-11-18 18:14:05.319 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:14:05.319 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:14:05.319 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:14:05.319 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:14:05.319 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:14:47.115 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:14:47.115 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:14:47.115 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:14:47.115 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:14:47.116 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 参数 : [11602070823]
+2019-11-18 18:15:23.421 [http-nio-8080-exec-9] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:15:23.421 [http-nio-8080-exec-9] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:23.421 [http-nio-8080-exec-9] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:15:23.421 [http-nio-8080-exec-9] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:15:23.421 [http-nio-8080-exec-9] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080117]
+2019-11-18 18:15:30.292 [http-nio-8080-exec-10] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:15:30.292 [http-nio-8080-exec-10] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:30.292 [http-nio-8080-exec-10] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:15:30.292 [http-nio-8080-exec-10] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:15:30.292 [http-nio-8080-exec-10] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080120]
+2019-11-18 18:15:44.256 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:15:44.256 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:44.256 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:15:44.256 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:15:44.256 [http-nio-8080-exec-1] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080123]
+2019-11-18 18:15:47.811 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:15:47.812 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:47.812 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:15:47.812 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:15:47.812 [http-nio-8080-exec-2] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080120]
+2019-11-18 18:15:58.965 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/file/upload
+2019-11-18 18:15:58.965 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:58.965 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : POST
+2019-11-18 18:15:58.965 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.upload
+2019-11-18 18:15:58.965 [http-nio-8080-exec-3] INFO  mybatis.demo.controller.StudentController - 参数 : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@409b45a2, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@409b45a2]
+2019-11-18 18:15:58.977 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/file/uid
+2019-11-18 18:15:58.977 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:15:58.977 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:15:58.977 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.deleteStudent
+2019-11-18 18:15:58.977 [http-nio-8080-exec-4] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080120]
+2019-11-18 18:16:24.996 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://127.0.0.1:8080/file/upload
+2019-11-18 18:16:24.997 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:16:24.997 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : POST
+2019-11-18 18:16:24.997 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.upload
+2019-11-18 18:16:24.997 [http-nio-8080-exec-5] INFO  mybatis.demo.controller.StudentController - 参数 : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@8692f44, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@8692f44]
+2019-11-18 18:16:25.022 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/file/uid
+2019-11-18 18:16:25.022 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:16:25.022 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:16:25.022 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.FileUpload.deleteStudent
+2019-11-18 18:16:25.023 [http-nio-8080-exec-7] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080120]
+2019-11-18 18:16:58.486 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 请求地址 : http://localhost:8080/test/getStudentById
+2019-11-18 18:16:58.486 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 方法描述 : 
+2019-11-18 18:16:58.486 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - HTTP METHOD : GET
+2019-11-18 18:16:58.486 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - CLASS_METHOD : mybatis.demo.controller.StudentController.getStudentById
+2019-11-18 18:16:58.486 [http-nio-8080-exec-6] INFO  mybatis.demo.controller.StudentController - 参数 : [11603080120]
